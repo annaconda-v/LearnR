@@ -1,0 +1,26 @@
+## Basic of working with github ##
+##################################
+
+## First clone your remote repository to your home directory
+git clone <https of your repository>
+
+## Move to your local copy of your remote repository
+cd <to your local copy of your remote rep>
+
+## Check if your local repository is up-to-date with the remote
+git check
+
+## Make changes in your local repository as needed 
+
+## Check if your local repository is up-to-date with the remote
+git check
+## Changes, new files, deleted files should be now listed
+
+## Add desired changes that are going to be pushed to remote
+git add <changes file(s)>
+
+## Commit those changes and add informative message '-m' describing the change made
+git commit -m "Added new file ..." 
+
+## Push these changes to the remote repository
+git push origin master
